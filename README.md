@@ -35,12 +35,12 @@ end
 - Fix the issue
 - Test the fix on Local/Testing environments
 - If the issue is a major one (block a process or a page, stop users from using the system), we need to deploy the fix to Production as soon as possible
-- If the issue is mirror we might deploy it in the next release
+- If the issue is minor we might deploy it in the next release
 - The issue is considered resolved when the fix has been deployed to Production and has been running stable for some period of time (several days, for example)
 
 **Hard cases**
 - Sometimes we have to take further actions to find out the root cause of the issues:
-  * Extract some data from Production to Local to analyst (with limited access and caution)
+  * Extract some data from Production to Local to analyse (with limited access and caution)
   * Write more log around the case on Production 
 - If the issue is critical and we cannot fix it quickly, we might have to roll back to the previous release
 
@@ -62,7 +62,7 @@ end
   * The added business is imperative/ The deadline is tight
   * We are lack of resource
 - Actions
-  * Continue to finish the feature (might make more refactor later)
-  * Try to make the new code loose coupling from the old ones
+  * Continue to finish the feature (might make more refactoring later)
+  * Try to make the new code loose coupling from the old one
   * Might intentionally increase code duplication (to reduce the effect to the exising cases)
 
