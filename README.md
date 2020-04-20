@@ -57,10 +57,12 @@ end
   * Study the old project and its correlation to new business cases
   * Adjust/Change the design so that it can support new cases with as least exceptional cases as possible
   
- **Scenario 2**
- - Assumptions:
+**Scenario 2**
+- Assumptions:
   * The added business is imperative/ The deadline is tight
   * We are lack of resource
- - Actions
-  * 
+- Actions
+  * Continue to finish the feature (might make more refactor later)
+  * Try to make the new code loose coupling from the old ones
+  * Might intentionally increase code duplication (to reduce the effect to the exising cases)
 
